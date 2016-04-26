@@ -21,14 +21,14 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!--<link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">-->
 
     <!-- Custom styles for this template -->
     <link href="css/custom.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <!--<script src="../../assets/js/ie-emulation-modes-warning.js"></script>-->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -40,7 +40,7 @@
 <!-- ====================== /Header ============================= -->
 <!-- ====================== Body ============================= -->
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
     <nav class="navbar navbar-inverse navbar-fixed-top ">
       <div class="container">
         
@@ -51,7 +51,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="images/top_logo.png" alt= "One Million Lines" title=" One Million Lines"></a>
+          <a class="navbar-brand" href="#jumbotron"><img src="images/top_logo.png" alt= "One Million Lines" title=" One Million Lines"></a>
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">
@@ -65,12 +65,47 @@
 
 <!-- ======================== Our Goal =========================== -->
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div id="jumbotron" class="jumbotron">
 
       <div class="container">
         <h1>Our goal is to inspire<br>Tallahassee to write 1,000,000<br>lines of code_</h1>
         <p>All over the country people are taking the HOUR OF CODE challenge issued by CODE.org. Millions of lines of code are being written. In the capital of Florida, Tallahassee, the community is taking the challenge and our goal is to write 1,000,000 lines of code_</p>
-        <p><a class="btn btn-danger btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <p><a class="btn btn-danger btn-lg" role="button" data-toggle="modal" data-target="#myModal">Learn more &raquo;</a></p>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/5LlQNty_C8s?showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup" class="row">
+          <form action="//github.us13.list-manage.com/subscribe/post?u=539340c74bf6a5f37558ffcb4&amp;id=e337a43b64" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" role="form" novalidate>
+
+          <div class="col-sm-9">
+            <div class="mc-field-group form-group">
+              <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Enter Email">
+            </div>
+          </div>
+            
+          <div class="col-sm-3">
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_539340c74bf6a5f37558ffcb4_e337a43b64" tabindex="-1" value=""></div>
+              
+            <div class="clear"><input type="submit" value="Join The Fun!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-danger btn-lg"></div>
+          </div>
+          </form>
+        </div>
+        <!--End mc_embed_signup-->
+
         <img src="images/code.png" title="Code.org logo" alt="Code.org">
       </div>
     </div>
@@ -133,7 +168,14 @@
       <div class="container">
         <p><img src="images/one_million_bottom_brand.png"></p>
       </div>
-    </footer>s
+
+<!-- ====================== Back to top button ============================= -->
+
+      <div id="back-to-top">
+        <a href="#jumbotron"><i class="fa fa-3x fa-chevron-circle-up" aria-hidden="true"></i></a>
+      </div>
+
+    </footer>
     
 <!-- ====================== /Footer ============================= -->
 <!-- ====================== Javascript ============================= -->
@@ -144,7 +186,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/smoothscroll.js"></script>
   </body>
 </html>
