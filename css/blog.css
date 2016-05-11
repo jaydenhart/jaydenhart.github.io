@@ -148,7 +148,7 @@ background-color:#f8f8f8;
 #posts-box h4 {
   font-size: 16px;
   text-transform: uppercase;
-  background-color: #efefef;
+  background-color: #e74c3c;
   color: #555;
   padding: 12px;
   text-align: center;
@@ -167,7 +167,7 @@ background-color:#f8f8f8;
 #posts-box li {
     font-size: 16px;
     padding: 12px;
-    border-bottom: 3px solid #efefef;
+    border-bottom: 3px solid #e74c3c;
     min-height: 60px;
     line-height: 20px;
 }
