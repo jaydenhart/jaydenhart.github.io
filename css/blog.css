@@ -335,6 +335,12 @@ width: 55px;
   border-bottom: 1px solid black;
 }
 
+.row-example:after{
+  clear: both;
+  content: " ";
+  display: table;
+}
+
 
 /*
  * Footer
