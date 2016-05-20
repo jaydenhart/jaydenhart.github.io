@@ -287,6 +287,13 @@ width: 55px;
   margin-right: 20px;
 }
 
+#about h1{
+  color: #e74c3c;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  margin-top: 70px;
+}
+
 
 /*
  * Footer
