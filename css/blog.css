@@ -311,6 +311,7 @@ width: 55px;
 
 .example-2 {
   width: 33.33333%;
+  float: left;
 }
 
 
