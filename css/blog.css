@@ -279,7 +279,11 @@ width: 55px;
     font-weight: 300;
 }
 
-
+/* About */
+#about img {
+  width: 20%;
+  height: 20%;
+}
 
 
 /*
