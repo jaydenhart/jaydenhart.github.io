@@ -301,12 +301,16 @@ width: 55px;
 }
 
 /*Portfolio Page*/
-.example{
+.example {
   background-color: #eee;
   float: left;
   width: 33.33333%;
   height: 300px;
   border: 1px solid;
+}
+
+.example-2 {
+  width: 33.33333%;
 }
 
 
