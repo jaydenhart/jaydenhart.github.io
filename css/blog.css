@@ -321,6 +321,12 @@ width: 55px;
   text-align: center;
 }
 
+.sticky-footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
 /* Responsive Styling */
 @media (max-width: 991px) {
 
