@@ -295,6 +295,11 @@ width: 55px;
   font-size: 30px;
 }
 
+#about p{
+  clear: left;
+  padding-top: 10px;
+}
+
 
 /*
  * Footer
