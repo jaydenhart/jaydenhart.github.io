@@ -290,6 +290,10 @@ width: 55px;
     padding-bottom: 60px;
     background-image: url(../images/background.JPG);
 }
+
+#home-top h1 {
+  color: #e74c3c;
+}
 /* About */
 #about img #home-top img{
   width: 100%;
