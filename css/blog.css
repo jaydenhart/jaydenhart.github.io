@@ -380,7 +380,7 @@ width: 55px;
   }
 }
 
-@media (max-width: 9767px) {
+@media (max-width: 767px) {
 
   #about img, #about h1{
     text-align: center;
