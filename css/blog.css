@@ -293,6 +293,9 @@ width: 55px;
 
 #home-top h1 {
   color: #e74c3c;
+  background-color: white;
+  padding: 12px;
+  border-radius: 20px;
 }
 /* About */
 #about img #home-top img{
