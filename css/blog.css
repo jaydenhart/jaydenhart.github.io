@@ -379,3 +379,14 @@ width: 55px;
     text-align: center;
   }
 }
+
+@media (max-width: 9767px) {
+
+  #about img, #about h1{
+    text-align: center;
+  }
+
+  .sticky-footer {
+    position: static;
+  }
+}
