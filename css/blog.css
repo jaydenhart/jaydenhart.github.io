@@ -289,6 +289,9 @@ width: 55px;
     padding-top: 60px;
     padding-bottom: 60px;
     background-image: url(../images/background.JPG);
+    background-position-x: 0px;
+    background-position-y: -10px;
+    background-size: 100%;
 }
 
 #home-top h1 {
@@ -297,6 +300,16 @@ width: 55px;
   padding: 12px;
   border-radius: 20px;
 }
+
+#home-top .form-group {
+  height: 50px;
+  font-size: 25px;
+}
+
+#home-tio .btn-danger {
+  font-size: 25px;
+}
+
 /* About */
 #about img #home-top img{
   width: 100%;
