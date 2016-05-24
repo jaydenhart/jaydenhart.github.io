@@ -310,6 +310,11 @@ width: 55px;
   font-size: 25px;
 }
 
+.container p {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
 /* About */
 #about img #home-top img{
   width: 100%;
